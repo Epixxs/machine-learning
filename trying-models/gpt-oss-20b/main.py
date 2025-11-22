@@ -6,7 +6,7 @@ from pydantic import BaseModel
 from openai import OpenAI
 
 # Set up environment variables 
-os.environ["HF_TOKEN"] = "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"
+os.environ["HF_TOKEN"] = ""
 
 app = FastAPI()
 
