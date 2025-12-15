@@ -33,6 +33,7 @@ async def chat(request: ChatRequest):
         )
         return {"response": completion.choices[0].message.content}
     except Exception as e:
+        print(f"Error during chat completion: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
 # Mount static files
