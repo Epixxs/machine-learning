@@ -40,3 +40,4 @@ uvicorn
 wikipedia
 wikipedia-api
 ydf
+huggingface
